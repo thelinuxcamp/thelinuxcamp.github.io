@@ -5,6 +5,7 @@ email: techlovers@zoho.eu
 description: >
   Site collaboratif avec des tutoriels sur Linux et l'ethical hacking: logiciels, penetration testing, exploitation, cracking...
 url: "https://thelinuxcamp.github.io"
+baseurl : ""
 permalink: pretty
 favicon: /assets/icontux.png
 
