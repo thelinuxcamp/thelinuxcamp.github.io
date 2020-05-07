@@ -1,0 +1,10 @@
+- name: Linux
+  link: /linux/
+- name: Ethical hacking
+  link: /hacking/
+- name: Contribuer
+  link: /contribute/
+- name: Serveur Discord
+  link: /discord/
+- name: Rechercher
+  link: /search/

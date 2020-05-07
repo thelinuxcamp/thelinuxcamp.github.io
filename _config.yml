@@ -1,0 +1,78 @@
+# Site Settings
+title: TheLinuxCamp
+tagline: Site francophone sur Linux et l'ethical hacking
+email: techlovers@zoho.eu
+description: >
+  Site collaboratif avec des tutoriels sur Linux et l'ethical hacking: logiciels, penetration testing, exploitation, cracking...
+url: "https://thelinuxcamp.github.io"
+permalink: pretty
+favicon: /assets/icontux.png
+
+disqus:
+  shortname: thelinuxcamp-github-io
+twitter:
+  username: thelinuxcampFr
+  card: summary
+
+lang: fr_FR
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+remote_theme: chrisrhymes/bulma-clean-theme
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+  - github-pages
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+google_analytics: UA-138690289-1
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Funeoz"
+      layout: post
+      image: 
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: menu_footer
+
+collections:
+  products: 
+    output: true
+    layout: product
+    image: 
+    show_sidebar: false

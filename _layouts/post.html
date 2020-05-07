@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="content">
+
+    <p><b>Publié le: {{ page.date | date: "%-d %b, %Y" }} par {{ page.author }}</b></p>
+
+    {{ content }}
+</div>
+
+<div class="tags">
+    {% for tag in page.tags %}
+    <span class="tag is-primary">{{ tag }}</span>
+    {% endfor %}
+</div>
+
+<img src="/assets/by-nc-sa.eu.png"><br>
+
+<br>
+
+{% include share-buttons.html %}
+
+{% if site.disqus.shortname %}
+  {% include disqus.html %}
+{% endif %}

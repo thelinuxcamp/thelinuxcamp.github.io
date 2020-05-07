@@ -1,0 +1,31 @@
+<p class="title is-4">Derniers posts</p>
+
+<div class="columns is-multiline">
+    {% for post in site.posts limit:3 %}
+    <div class="column is-12">
+        {% include post-card.html %}
+    </div>
+    {% endfor %}
+</div>
+
+<p class="title is-4">Serveur Discord</p>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/restingcoder/discord-widget@1.1/discord-widget.min.js"></script>
+<script type="text/javascript">
+    discordWidget.init({
+        serverId: '638374749688561664',
+        title: 'TheLinuxCamp',
+        join: true,
+        joinText: 'Rejoindre le serveur',
+        alphabetical: false,
+        theme: 'dark',
+        hideChannels: ['Chat des rédacteurs'],
+        showAllUsers: true,
+        allUsersDefaultState: true,
+        showNick: false,
+        userName: '',
+        useCDN: true
+    });
+    discordWidget.render();
+</script>
+<div class="discord-widget"></div>
