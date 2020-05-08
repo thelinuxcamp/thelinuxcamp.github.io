@@ -4,7 +4,7 @@ layout: post
 permalink: /hacking/installer-outils-kali-linux-ubuntu.html
 title: Installer les outils de Kali Linux sous Ubuntu
 category: hacking
-image: /assets/2020-05-13/image1kalibuntu.webp
+image: /assets/2020-05-08/image1kalibuntu.webp
 ---
 
 Ubuntu est une distribution Linux très populaire. Mais avoir en plus les outils de Kali seraient un vrai plus. C'est pour cela que certaines personnes ont créé des outils pour les installer très facilement: Katoolin3 et Kalibuntu. 
