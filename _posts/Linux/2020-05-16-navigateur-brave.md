@@ -1,7 +1,7 @@
 ---
 author: Funeoz
 layout: post
-permalink: /linux/brave-meilleure-alternative-chrome-linux.mtml
+permalink: /linux/brave-meilleure-alternative-chrome-linux.html
 title: Brave, la meilleure alternative à Chrome sous Linux
 category: linux
 image: /assets/2020-05-16/image1brave.webp
