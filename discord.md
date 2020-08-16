@@ -9,22 +9,7 @@ Un serveur Discord a été mis en place pour les utilisateurs du site.
 &nbsp;
 &nbsp;
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/restingcoder/discord-widget@1.1/discord-widget.min.js"></script>
-<script type="text/javascript">
-    discordWidget.init({
-        serverId: '638374749688561664',
-        title: 'TheLinuxCamp',
-        join: true,
-        joinText: 'Rejoindre le serveur',
-        alphabetical: false,
-        theme: 'dark',
-        hideChannels: ['Chat des rédacteurs'],
-        showAllUsers: true,
-        allUsersDefaultState: true,
-        showNick: false,
-        userName: '',
-        useCDN: true
-    });
-    discordWidget.render();
-</script>
-<div class="discord-widget"></div>
+<iframe src="https://discordapp.com/widget?id=638374749688561664&theme=dark" 
+width="350" height="500" allowtransparency="true" frameborder="0" 
+sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+</iframe>
