@@ -8,7 +8,8 @@ Thelinuxcamp est un site internet centré autour de Linux et l'ethical hacking.
 
 ## CONTRIBUER
 
-Il est possible d'aider au développement du site web mais également de rédiger des articles. [Procédure de publication d'un article](https://github.com/thelinuxcamp/thelinuxcamp.github.io/wiki/Contribuer)
+Il est possible d'aider au développement du site web mais également de rédiger des articles. 
+[Procédure de publication d'un article](https://github.com/thelinuxcamp/thelinuxcamp.github.io/wiki/Contribuer)
 
 ## LICENSE
 
