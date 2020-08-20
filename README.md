@@ -4,7 +4,7 @@
 
 Thelinuxcamp est un site internet centré autour de Linux et l'ethical hacking.
 
-![](https://github.com/thelinuxcamp/thelinuxcamp.github.io/blob/master/assets/capture.PNG)  
+![](https://github.com/thelinuxcamp/thelinuxcamp.github.io/blob/master/assets/Capture.PNG)  
 
 ## CONTRIBUER
 
