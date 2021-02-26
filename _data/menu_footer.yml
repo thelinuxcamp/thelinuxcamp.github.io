@@ -2,7 +2,8 @@
   link: /
 - name: A propos
   link: /about/
-- name: Contribuer
-  link: /contribute/
+- name: Politique de confidentialité
+  link: /politique-confidentialite/
 - name: Culte du Code
   link: https://www.culte-du-code.fr/
+
